@@ -6,7 +6,7 @@ outputs:
 - {name: Data}
 metadata:
   annotations:
-    author: Modified by Hitman86R original from Alexey Volkov <alexey.volkov@ark-kun.com>
+    author: Modified by Hitman86R original from Alexey Volkov 
     canonical_location: 'https://raw.githubusercontent.com/Hitman86R/kubeflow/main/component.yaml'
 implementation:
   container:
