@@ -10,8 +10,8 @@ metadata:
     canonical_location: 'https://raw.githubusercontent.com/Hitman86R/kubeflow/main/component.yaml'
 implementation:
   container:
-    # image: curlimages/curl  # Sets a non-root user which cannot write to mounted volumes. See https://github.com/curl/curl-docker/issues/22
-    image: byrnedo/alpine-curl:latest
+    image: curlimages/curl  # Sets a non-root user which cannot write to mounted volumes. See https://github.com/curl/curl-docker/issues/22
+    #image: byrnedo/alpine-curl:latest
     command:
     - sh
     - -exc
